@@ -506,3 +506,15 @@ html.dark-mode body,
   color: inherit !important;
 }
 
+/* === 链接样式与正文一致 === */
+.light-mode a,
+.dark-mode a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+/* === 可选：悬停时稍微加深颜色（你可以保留或删除） */
+.light-mode a:hover,
+.dark-mode a:hover {
+  opacity: 0.85;
+}
